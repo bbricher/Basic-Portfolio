@@ -42,35 +42,3 @@ li a {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
 }
-#about {
-    display: block;
-    color: #4aaaa5;
-    padding: 20px 0 20px 10px;
-}
-#img-div {
-    float: left;
-    margin: 0 15px 15px 15px;
-}
-#content {
-    overflow: auto;
-    border: thin solid #dddddd;
-    margin: 20 auto;
-
-}
-#main-content {
-    background-color: #ffffff; 
-    width: 960px;
-    margin: 0 auto; 
-}
-p {
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 30px;
-    padding: 0 10px 0 10px;
-}
-/* #portfolio-nav {
-    border-right: 1px solid #777777;
-}
-#contact-nav {
-    border-right: 1px solid #777777;
-} */
