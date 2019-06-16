@@ -1,70 +1,83 @@
+#nav-container {
+    height: auto;
+    background-color: white;
+    border-bottom: thick solid #dddddd;
+    margin: 0 0 40px 0;
+}
+.nav-center {
+    width: 960px; 
+    margin: 0 auto;
+}
 #name {
-    /* flex: 1; */
-    float: left;
+    height: auto;
+    margin: 0;
     color: white;
     background-color: #4aaaa5;
     padding: 20px; 
-    width: 11%;
-    display: block;
-    margin: 0 100px 0 100px;
+    width: 22%;
+    display: inline-block;
 }
 ul{
+    display: inline-block;
+    float: right;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 16px;
 }
 li {
+    height: 3px;
     float: right;
     text-decoration: none;
 }
 #about-nav {
-    /* flex: 2; */
+
 }
-#portfolio-nav {
-    /* flex: 3; */
-    border-inline-end: thin solid #777777;
+body {
+    background-color: rgb(247, 241, 239);
 }
-#contact-nav {
-    /* flex: 4; */
-    border-inline-end: thin solid #777777;
-}
+
 li a {
     display: block;
     text-align: center;
     text-decoration: none;
-    padding: 14px 16px;
-    width: 11%;
+    padding: 14px 3px;
+    width: 100%;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-}
-li a:hover {
-    display: block;
-    background-color: #dddddd;
 }
 #about {
     display: block;
     color: #4aaaa5;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 20px 10px;
+    border-bottom: 
 }
-#img-self {
-
-}
-#nav-container {
-    height: 62.48px;
-    /* display: flex;
-    flex-direction: row; */
-    background-color: white;
-    border-bottom: thin solid #dddddd;
+/* #img-self {
+    
+} */
+#img-div {
+    float: left;
+    margin: 0 15px 15px 15px;
 }
 #content {
     overflow: auto;
-    width: 70%;
     border: thin solid #dddddd;
+    margin: 20 auto;
+
 }
 #main-content {
-    background-color: #ffffff;    
+    background-color: #ffffff; 
+    width: 960px;
+    margin: 0 auto; 
 }
 p {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    padding: 0 10px 0 10px;
 }
+/* #portfolio-nav {
+    border-right: 1px solid #777777;
+}
+#contact-nav {
+    border-right: 1px solid #777777;
+} */
